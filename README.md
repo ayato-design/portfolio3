@@ -17,6 +17,8 @@ HTML / CSS の基礎理解と、レイアウト・余白設計の練習を目的
 ## 使用技術
 - HTML
 - CSS
+- JavaScript(basic)
+- jQuery
 - Figma
 - Canva
 
@@ -31,4 +33,5 @@ Codejump
 
 ## 補足
 本作品は学習目的の模写であり、商用利用はしていません。
+
 
