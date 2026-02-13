@@ -8,6 +8,7 @@
    <meta name="viewport" content="width=device-width,initial-scale=1">
  </head>
  <body>
+    <script src="https://code.jquery.com/jquery-4.0.0.js" integrity="sha256-9fsHeVnKBvqh3FB2HYu7g2xseAZ5MlN6Kz/qnkASV8U=" crossorigin="anonymous"></script>
 <header>
     <div class="menu">
         <h1>ink and line</h1>
@@ -142,5 +143,22 @@
         <p>© 2026 Portfolio Study & Practice Project<br>This site is a personal learning project.</p>
     </div>
 </footer>
+<script>
+// スムーススクロール(元：WEBデザインMATOME)
+$(function() {
+  $('a[href^="#"]').on('click', function(e) {
+    const href = $(this).attr('href');
+    // 空の # は無視
+    if (href === "#") return;
+    // 対象要素が存在しない場合も無視
+    const $target = $(href);
+    if ($target.length === 0) return;
+    e.preventDefault();
+    $('html, body').animate({
+      scrollTop: $target.offset().top
+    }, 500, 'linear');
+  });
+});
+</script>
  </body>
 </html>
