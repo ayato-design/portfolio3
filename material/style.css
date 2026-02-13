@@ -386,8 +386,7 @@ footer{
         padding: 0;
     }
 
-    .business_left,
-    .business_right {
+    .business_left, .business_right {
         width: 100%;
         padding-top: 0;
         margin-bottom: 50px;
@@ -423,12 +422,13 @@ footer{
         height: auto;
         padding: 50px 5%;
     }
-
+    .works ul {
+        flex-wrap: wrap;
+    }
     .works_box {
         flex-direction: column;
         align-items: flex-start;
     }
-
     .works_image {
         width: 60%;
         margin: 30px auto 0;
