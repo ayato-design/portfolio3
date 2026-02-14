@@ -59,7 +59,7 @@ header {
     align-items: center;
 }
 header h1{
-    font-size: 64px;
+    font-size: 50px;
     font-family: "Lovers Quarrel", cursive;
     font-weight: lighter;
     padding-right: 100px;
@@ -499,3 +499,4 @@ footer{
         margin: 10px 0;
     }
 }
+
