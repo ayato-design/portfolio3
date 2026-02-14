@@ -17,7 +17,7 @@ $(function() {
 // 戻るボタン(元：SACOCHAN-DESIGN.COM)
 $(document).ready(function () {
     const back_button = $('.back_button');
-    const news = $('.about');
+    const news = $('.news');
 
     if (!back_button.length || !news.length) {
       console.warn('必要な要素が見つかりません');
