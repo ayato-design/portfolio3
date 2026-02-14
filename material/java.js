@@ -17,19 +17,19 @@ $(function() {
 // 戻るボタン(元：SACOCHAN-DESIGN.COM)
 $(document).ready(function () {
     const back_button = $('.back_button');
-    const about = $('.about');
+    const news = $('.about');
 
-    if (!back_button.length || !about.length) {
+    if (!back_button.length || !news.length) {
       console.warn('必要な要素が見つかりません');
       return;
     }
     function handleScroll() {
       const scrollTop = $(window).scrollTop();
       const windowHeight = $(window).height();
-      const aboutTop = about.offset().top;
+      const newsTop = news.offset().top;
 
       // sec02の上端が画面内に入ったら表示
-      if (scrollTop + windowHeight > aboutTop) {
+      if (scrollTop + windowHeight > newsTop) {
         back_button.addClass('is-show');
       } else {
         back_button.removeClass('is-show');
