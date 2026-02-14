@@ -25,7 +25,7 @@ HTML / CSS の基礎理解と、レイアウト・余白設計の練習を目的
 ## 素材提供
 - Unsplash
 - Google Fonts
-- jQuery
+- HTML5 Dotcor
 - WEBデザインMATOME
 - SACOCHAN-DESIGN.COM
 
