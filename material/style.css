@@ -78,7 +78,7 @@ nav ul {
     list-style: none;
 }
 nav ul li {
-    padding-left: 75px;
+    padding-left: 20%;
 }
 header .contact {
     background: #6464B7;
@@ -499,4 +499,5 @@ footer{
         margin: 10px 0;
     }
 }
+
 
