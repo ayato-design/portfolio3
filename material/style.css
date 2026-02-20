@@ -380,6 +380,7 @@ input[type="submit"] {
     padding: 8px;
     border: 1px solid #cccccc;
     border-radius: 4px;
+    margin-bottom: 30px;
 }
 .tel {
     font-size: medium;
@@ -552,4 +553,16 @@ input[type="submit"] {
         margin-left: 0; 
         margin: 10px 0;
     }
+
+        /* CONTACT */
+    .mailform_box {
+        padding: 0 5%;
+    }
+    .form_item {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .form_item input, .form_item textarea {
+        width: 95%;
+}
 }
