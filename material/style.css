@@ -97,13 +97,13 @@ header .contact {
 header .contact a {
     margin: 0 auto;
 }
-header .contact a:link, .contact a:active, .contact a:visited {
+header .contact a {
     color: #FFFFFF;
 }
 header .contact a:hover {
     color:#cccccc;
 }
-nav a:link, nav a:active, nav a:visited {
+nav a {
     color:#000000;
 }
 nav a:hover {
@@ -312,7 +312,7 @@ h2::after {
 .works_text ul li:last-child::after {
     content: "";
 }
-.works a:link, .works a:active, .works a:visited {
+.works a {
     color:#000000;
 }
 .works a:hover{
@@ -346,11 +346,11 @@ footer {
 }
 
 /* CONTACT */
+.mailform {
+    padding: 30px 20%;
+}
 .mailform p {
     line-height: 25px;
-}
-.mailform_box {
-    padding: 30px 20%;
 }
 .mailform_text {
     padding-bottom: 30px;
@@ -555,7 +555,7 @@ input[type="submit"] {
     }
 
         /* CONTACT */
-    .mailform_box {
+    .mailform {
         padding: 0 5%;
     }
     .form_item {
