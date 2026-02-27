@@ -392,17 +392,13 @@ input[type="submit"] {
 }
 
 @media screen and (max-width: 900px) {
-    /* 全体 */
-    body {
-        font-size: 13px;
-    }
 
     /* 戻るボタン */
     .back_button {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-}
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
 
     /* ヘッダー */
     header {
@@ -411,30 +407,25 @@ input[type="submit"] {
         flex-direction: column;
         align-items: flex-start;
     }
-
     header .menu {
         padding: 0;
         flex-direction: column;
         width: 100%;
     }
-
     header h1 {
         font-size: 48px;
         padding-right: 0;
         margin-bottom: 10px;
     }
-
     nav ul {
         flex-wrap: wrap;
         padding: 0;
     }
-
     nav ul li {
         padding-left: 0;
         padding-right: 20px;
         margin-bottom: 10px;
     }
-    
     header .contact {
         display: none;
     }
@@ -448,12 +439,10 @@ input[type="submit"] {
     .news {
         padding: 0 5%;
     }
-
     .news ul {
         flex-direction: column;
         gap: 30px;
     }
-
     .news ul li {
         border-right: none;
         padding-bottom: 20px;
@@ -464,12 +453,10 @@ input[type="submit"] {
         flex-direction: column;
         padding: 0;
     }
-
     .about_img {
         width: 100%;
         margin: 0;
     }
-
     .about_text {
         margin: 0;
         padding: 0 5%;
@@ -479,18 +466,15 @@ input[type="submit"] {
     .business {
         padding: 0 5%;
     }
-
     .business_box {
         flex-direction: column;
         padding: 0;
     }
-
     .business_left, .business_right {
         width: 100%;
         padding-top: 0;
         margin-bottom: 50px;
     }
-
     .business_main {
         max-width: 100%;
     }
@@ -503,13 +487,11 @@ input[type="submit"] {
         flex-direction: column;
         position: static;
     }
-
     .company_box {
         width: 100%;
         padding: 50px 20px;
         position: static;
     }
-
     .company_img {
         width: 100%;
         position: static;
@@ -528,27 +510,20 @@ input[type="submit"] {
         flex-direction: column;
         align-items: flex-start;
     }
-    .works_image {
-        width: 60%;
-        margin: 30px auto 0 auto;
-    }
 
     /* フッター */
     footer {
         padding: 0 5%;
     }
-    
     .footer_box {
         height: auto;
         padding: 20px 0;
     }
-
     .footer_text {
         align-items: flex-start;
         flex-direction: column;
         padding: 0;
     }
-
     .footer_add {
         margin-left: 0; 
         margin: 10px 0;
@@ -564,5 +539,14 @@ input[type="submit"] {
     }
     .form_item input, .form_item textarea {
         width: 95%;
+    }
 }
+
+@media screen and (max-width: 768px) {
+
+    /* WORKS */
+    .works_text h3 {
+        font-size: 25px;
+    }
 }
+
