@@ -5,12 +5,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* 全体 */
-body{
+body {
     background: #E6E6E6;
     font-size: 14px;
     font-family: "Noto Sans JP", sans-serif;
 }
-img{
+img {
     max-width: 100%;
     height: auto;
     vertical-align: bottom;
@@ -511,6 +511,13 @@ input[type="submit"] {
         align-items: flex-start;
         padding: 30px 0;
     }
+    .works_image {
+        width: 60%;
+        margin: 30px auto 0 auto;
+    }
+    .works_text h3 {
+        font-size: 25px;
+    }
 
     /* フッター */
     footer {
@@ -545,9 +552,5 @@ input[type="submit"] {
 
 @media screen and (max-width: 768px) {
 
-    /* WORKS */
-    .works_text h3 {
-        font-size: 25px;
-    }
 }
 
