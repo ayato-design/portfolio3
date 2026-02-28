@@ -52,6 +52,25 @@ img {
     transform: translateY(0);
 }
 
+/* ボタン */
+.button a {
+    background: #FFFFFF;
+    color: #000000;
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 200px;
+    padding: 20px;
+    transition: 0.3s ease-in-out;
+}
+.button a:hover {
+    background: #6464B7;
+    color: #FFFFFF;
+}
+
 /* パンくずリスト */
 .pan_list {
     font-size: 12px;
