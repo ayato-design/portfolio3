@@ -369,10 +369,13 @@ footer {
 
 /* CONTACT */
 .mailform {
-    padding: 30px 20%;
+    padding: 0 20%;
 }
 .mailform p {
     line-height: 25px;
+}
+.mailform_box {
+    padding: 30px 0;
 }
 .mailform_text {
     padding-bottom: 30px;
