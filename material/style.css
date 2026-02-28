@@ -389,6 +389,7 @@ footer {
 
 /* CONTACT */
 .mailform {
+    background: #E6E6E6;
     padding: 0 20%;
 }
 .mailform p {
