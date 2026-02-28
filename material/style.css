@@ -54,6 +54,7 @@ img {
 
 /* パンくずリスト */
 .pan_list {
+    font-size: 12px;
     display: flex;
     align-items: center;
     list-style: none;
