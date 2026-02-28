@@ -432,7 +432,7 @@ input[type="submit"] {
 
     /* ヒーロー */
     .hero {
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
 
     /* NEWS */
@@ -442,16 +442,17 @@ input[type="submit"] {
     .news ul {
         flex-direction: column;
         gap: 30px;
+        margin-bottom: 20px;
     }
     .news ul li {
         border-right: none;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
     }
 
     /* ABOUT */
     .about {
         flex-direction: column;
-        padding: 0;
+        margin-bottom: 60px;
     }
     .about_img {
         width: 100%;
@@ -460,6 +461,9 @@ input[type="submit"] {
     .about_text {
         margin: 0;
         padding: 0 5%;
+    }
+    .about_text h2 {
+        margin-top: 30px;
     }
 
     /* BUSINESS */
@@ -473,7 +477,7 @@ input[type="submit"] {
     .business_left, .business_right {
         width: 100%;
         padding-top: 0;
-        margin-bottom: 50px;
+        margin-bottom: 0;
     }
     .business_main {
         max-width: 100%;
