@@ -52,6 +52,34 @@ img {
     transform: translateY(0);
 }
 
+/* パンくずリスト */
+.pan_list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+.pan_list li {
+    display: inline;
+}
+.pan_list li::after {
+    content: ">";
+    margin: 0 5px;
+    color: #000000;
+}
+.pan_list li:last-child::after {
+    content: "";
+}
+
+/* リンク */
+a {
+    color:#000000;
+}
+a:hover {
+    color:#cccccc;
+}
+
 /* ヘッダー */
 header {
     height: 80px;
@@ -101,12 +129,6 @@ header .contact a {
     color: #FFFFFF;
 }
 header .contact a:hover {
-    color:#cccccc;
-}
-nav a {
-    color:#000000;
-}
-nav a:hover {
     color:#cccccc;
 }
 
