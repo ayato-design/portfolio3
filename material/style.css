@@ -567,6 +567,9 @@ input[type="submit"] {
     .news_list_box {
         padding: 30px 0;
     }
+    .news .button {
+    margin-bottom: 30px;
+    }
     /* NEWS(一覧) */
     .news_itemlist {
         grid-template-columns: 1fr;
