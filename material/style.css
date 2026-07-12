@@ -462,6 +462,9 @@ footer {
     align-items: center;
     margin-left: auto; 
 }
+.footer_box p {
+    padding-bottom: 10px;
+}
 
 /* CONTACT */
 .mailform {
