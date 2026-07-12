@@ -444,7 +444,6 @@ footer {
     padding: 0 20%;
 }
 .footer_box {
-    height: 220px;
     margin: 0 auto;
 }
 .footer_text {
@@ -663,7 +662,6 @@ input[type="submit"] {
         padding: 0 5%;
     }
     .footer_box {
-        height: auto;
         padding: 20px 0;
     }
     .footer_text {
